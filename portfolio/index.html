@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d89be725f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certifications">My Certifications</a></li>
+                    <li><a href="#workid">My work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Enthusiastic Learner</p>
+                <h1>Hi,I'm <span>A.L.Sankeerthana</span> <br>from Vijayawada</h1>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/7.jpeg">
+                </div>
+        
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm <span>Alavala Lakshmi Sankeerthana</span> studying Btech in <span>VR Siddhartha Engineering College </span>in the Branch of <span>
+                        Information Technology</span>.My Career Objective is to  gain hands-on exposure & evolve as an expert in
+                        the field of cutting-edge technologies by leveraging
+                        my technical competencies and passion for learning.
+                        To be extraordinary in any form of activity, both as a
+                        professional and as an individual.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Professional Skills</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span><br>C,C++,Python,Java,R</li>
+                                <li><span>Web Development</span><br>HTML,CSS,React,Dotnet,Bootstrap</li>
+                                <li><span>Data Bases</span><br>Microsoft SQL Server</li>
+                                <li><span>Operating Systems</span><br>Windows,Linux</li>
+                                <li><span>Version Control</span><br>Git,Github</li>
+                                <li><span>Familiar with</span><br>Azure,AWS and Google cloud.</li>
+                                <li><span>Good exposure</span><br>Data Structures and IOT.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>Communication Skills</li>
+                                <li>Team Management</li>
+                                <li>Quick at grasping</li>
+                                <li>Logical reasoning</li>
+                                <li>Innovativet</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Btech IT</span><br>VR Siddhartha Engineering College.</li>
+                                <li><span>Intermediate</span><br>APRJC Nimmakuru.</li>
+                                <li><span>10th Standard</span><br>Geethams EM High School.</li>
+                            </ul>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--------certifications-------->
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">My Certifications </h1>
+            <div class="certi-list">
+                 <div>
+                    <i class="fa-brands fa-google"></i>
+                    <h2>Cloud Digital Leader</h2>
+                    <p>Google cloud certified</p>
+                    <a href="images/googlecertificate.png">View it</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-aws"></i>
+                    <h2>AWS Cloud Virtual Internship</h2>
+                    <p>provided by APSCHE Eduskills Foundation supported by AWS Academy at NED University</p>
+                    <a href="#">View it</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Bussiness Analytics & Text Mining Modeling using Python</h2>
+                    <p>provided by NPTEL acquired(Sliver+ Elite certificate) with 82% score.</p>
+                    <a href="#">View it</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Full Stack Web Development with React</h2>
+                    <p>Specialization course provided by Coursera.</p>
+                    <a href="#">View it</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Data Analytics through Python </h2>
+                    <p>provided by NPTEL acquired(Sliver+ Elite certificate) with 75% score.</p>
+                    <a href="#">View it</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Internet of Things</h2>
+                    <p>participated in one month boootcamp conducted by I and T labs.</p>
+                    <a href="#">View it</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>PCAP : Programming Essentials in Python</h2>
+                    <p>provided by Python Institute and Letsupgrade,2021</p>
+                    <a href="#">View it</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Introduction to Data Science</h2>
+                    <p>provided by Cognitive class by IBM,2022.</p>
+                    <a href="#">View it</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+<!--------Work------->
+<div id="workid">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>NGO Website</h3>
+                    <p>It is a Non-Governmental Organization Website.It Helps the poor people by donating food,books,Cloths etc...</p>
+                    <a href="https://keerthi73.github.io/NGO_Website/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Airline Management</h3>
+                    <p>It is a Airline Reservation System Database Relations which contains Tables and its Relations.</p>
+                    <a href="https://keerthi73.github.io/dbms_record/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>Baoiam</h3>
+                    <p>It is a Baoiam company Website.It contains the About,Blog,Courses and Team Section related to Company.</p>
+                    <a href="https://keerthi73.github.io/NGO_Website/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See More</a>
+    </div>
+</div>
+<!------------contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>alavalasankeerthana@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9110535558</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/alavala-lakshmi-sankeerthana"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/keerthi73"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/k_e_e_r_t_h_i__20/?igshid=Mzc0YWU1OWY%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/ALSankeerthana"><i class="fa-brands fa-twitter"></i></a>
+                    
+                </div>
+                <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ A.L.Sankeerthana.Made with <i class="fas fa-heart"></i></p>
+    </div>
+
+</div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemeu.style.right="0";
+  }
+  function closemenu(){
+    sidemeu.style.right="-200px"
+  }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzKfdv8MMGwqAjAoh3ZDxgBQd7h0o-8dROqUNF_lalKtNKYl1UEO7XAmTT1JKsmRURW/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+               msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
